@@ -1,0 +1,10 @@
+---
+spring:
+  profiles: local
+example:
+      path: test.test
+---
+spring:
+  profiles: dev
+example:
+      path: test.test

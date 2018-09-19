@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    active: local
+example:
+      path: test.test
+
+custom:
+  rest:
+    connection:
+      connection-request-timeout: 1000
+      connect-timeout: 1000
+      read-timeout: 500
